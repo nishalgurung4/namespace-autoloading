@@ -1,0 +1,17 @@
+{
+    "name": "nishal/project",
+    "description": "This is demo project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nishal",
+            "email": "nishal.gurung4@outlook.com"
+        }
+    ],
+    "require": {
+        "rivsen/hello-world": "^0.1.0"
+    },
+     "autoload": {
+        "psr-4": {"Nishal\\": "src/"}
+    }
+}
